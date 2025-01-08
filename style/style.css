@@ -1,4 +1,4 @@
-#dev {
+header#dev {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -65,6 +65,7 @@ button.nav-btn:hover {
 .banner-content {
   max-width: 500px;
   margin-left: 247px;
+  margin-top: 88px;
 }
 
 .banner-content h4 {
