@@ -2,7 +2,7 @@ header#dev {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  height: 764px;
+  background-size: contain;
 }
 /* #sec-bg {
   background-color: rgb(241, 205, 158);
@@ -65,7 +65,7 @@ button.nav-btn:hover {
 .banner-content {
   max-width: 500px;
   margin-left: 247px;
-  margin-top: 88px;
+  margin-top: -23px;
 }
 
 .banner-content h4 {
@@ -97,8 +97,8 @@ button.nav-btn:hover {
   font-family: math;
 }
 .banner-img img {
-  width: 400px;
-  height: 637px;
+  width: 380px;
+  height: 511px;
 }
 .banner {
   display: flex;
