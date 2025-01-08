@@ -1,0 +1,318 @@
+#dev {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  height: 764px;
+}
+/* #sec-bg {
+  background-color: rgb(241, 205, 158);
+  z-index: -333;
+} */
+.contenar {
+  width: 1100px;
+  margin: auto;
+}
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+}
+.nav-logo {
+  font-size: 45px;
+  font-family: open sans;
+  font-weight: 800;
+  font-family: math;
+}
+.nav-logo span {
+  color: rgb(250, 107, 5);
+}
+.header-ul {
+  display: flex;
+  align-items: center;
+}
+.header-ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.header-ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: blueviolet;
+  font-family: math;
+}
+button.nav-btn {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 20px;
+  background: blueviolet;
+  border: navajowhite;
+  border-radius: 32px;
+  color: white;
+  transition: 0.9s;
+  margin-right: 29px;
+  font-family: math;
+}
+button.nav-btn i {
+  margin-right: 10px;
+}
+button.nav-btn:hover {
+  background: rgb(250, 107, 5);
+}
+/* banner style */
+.banner-content {
+  max-width: 500px;
+  margin-left: 247px;
+}
+
+.banner-content h4 {
+  font-size: 45px;
+  font-weight: 600;
+  color: blueviolet;
+  margin-bottom: -56px;
+  font-family: math;
+}
+.banner-content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: rgb(43, 43, 43);
+  margin-left: 45px;
+  font-family: math;
+}
+.banner-content span {
+  color: blueviolet;
+}
+.banner-content span:last-child {
+  color: black;
+  margin-left: 200px;
+}
+.banner-content p {
+  width: 588px;
+  color: rgb(104, 104, 104);
+  margin-top: -40px;
+  margin-bottom: 49px;
+  font-family: math;
+}
+.banner-img img {
+  width: 400px;
+  height: 637px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* about secation */
+#About {
+  width: 1100px;
+  margin: 0 auto;
+}
+.about-iteams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abouts {
+  padding: 75px 170px;
+  border-radius: 20px;
+  text-align: center;
+  background: rgb(250, 247, 226);
+  margin-top: 20px;
+}
+
+.about {
+  margin-left: 41px;
+}
+
+p.about-tital {
+  font-size: 20px;
+  color: rgb(104, 104, 104);
+  font-family: math;
+}
+
+p.about-dec {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(104, 104, 104);
+  font-family: math;
+}
+h3.section-tital {
+  font-size: 36px;
+  font-family: math;
+  margin-top: -26px;
+}
+
+p.section-dec {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  font-family: math;
+}
+
+/* skill style */
+
+.skill-contenar {
+  display: flex;
+  gap: 20px;
+  border: 20px solid azure;
+}
+.skill-content {
+  width: 713px;
+  margin: auto;
+}
+h3.skill-tital {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: serif;
+  font-family: math;
+}
+p.skill-decp {
+  text-align: center;
+  color: rgb(104, 104, 104);
+  font-family: math;
+}
+
+.skill {
+  padding: 37px;
+  box-shadow: 5px 5px 10px rosybrown;
+  border-radius: 25px;
+}
+
+p.skill-dec {
+  text-align: inherit;
+  width: 174px;
+  color: rgb(104, 104, 104);
+  font-family: math;
+}
+h4.skill-tital {
+  font-size: 22px;
+  font-family: math;
+}
+/* resume-contenar style */
+
+.resume-contenar {
+  display: flex;
+}
+h3.resume-tital {
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: math;
+}
+
+.resume-colum {
+  margin-left: 80px;
+  box-shadow: 10px 10px 50px #c9c6c6;
+  padding: 23px;
+  border-radius: 67px 10px 10px 10px;
+}
+
+h3.resume-colum-title {
+  font-size: 35px;
+  font-family: math;
+}
+
+h4.exp-tital {
+  font-size: 20px;
+  font-family: math;
+  font-weight: 700;
+}
+
+h5.exp-sub-tital {
+  font-size: 17px;
+  font-family: math;
+  color: rgb(104, 104, 104);
+}
+
+.exp-dec {
+  width: 389px;
+  font-family: math;
+  color: #6c6c6c;
+}
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+button.resume-btn-class {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: navajowhite;
+  background: blueviolet;
+  border-radius: 5px;
+  color: white;
+  font-family: math;
+}
+button.resume-btn-class i {
+  margin-right: 10px;
+}
+button.resume-btn-class:hover {
+  background: #ff6207;
+}
+/* footer style */
+footer.footer-area {
+  padding: 100px 130px;
+  background-color: cornsilk;
+  margin-top: 47px;
+  display: flex;
+  gap: 120px;
+}
+.footer-area input[type='text'] {
+  height: 50px;
+  font-size: 16px;
+  padding: 11px;
+  width: 100%;
+  margin: 0px 0px 23px 0px;
+  border: none;
+  border-radius: 5px;
+  font-family: math;
+}
+textarea {
+  height: 95px;
+  font-size: 16px;
+  padding: 11px;
+  width: 100%;
+  margin: 0px 0px 23px 0px;
+  border: none;
+  border-radius: 5px;
+  font-family: math;
+}
+
+.footer-colum {
+  margin-top: -84px;
+}
+h3.footer-tital {
+  font-size: 30px;
+  font-family: math;
+}
+.footer-colum p {
+  font-size: 16px;
+  font-family: math;
+  color: rgb(104, 104, 104);
+}
+.footer-icon a {
+  padding: 10px 10px 10px 0px;
+  font-family: math;
+}
+
+.footer-icon {
+  margin-top: 30px;
+}
+.footer-btn {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: navajowhite;
+  background: blueviolet;
+  border-radius: 5px;
+  color: white;
+  font-family: math;
+}
+.footer-btn:hover {
+  background: #ff6207;
+}
