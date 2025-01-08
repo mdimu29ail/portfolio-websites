@@ -256,7 +256,7 @@ button.resume-btn-class:hover {
 }
 /* footer style */
 footer.footer-area {
-  padding: 100px 130px;
+  padding: 100px 130px 50px;
   background-color: cornsilk;
   margin-top: 47px;
   display: flex;
