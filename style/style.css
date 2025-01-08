@@ -264,21 +264,21 @@ footer.footer-area {
   gap: 120px;
 }
 .footer-area input[type='text'] {
-  height: 50px;
+  height: 27px;
   font-size: 16px;
   padding: 11px;
-  width: 100%;
-  margin: 0px 0px 23px 0px;
+  width: 71%;
+  margin: -17px 0px 32px 0px;
   border: none;
   border-radius: 5px;
   font-family: math;
 }
 textarea {
-  height: 95px;
+  height: 62px;
   font-size: 16px;
   padding: 11px;
-  width: 100%;
-  margin: 0px 0px 23px 0px;
+  width: 72%;
+  margin: -17px 0px 15px 0px;
   border: none;
   border-radius: 5px;
   font-family: math;
@@ -316,4 +316,29 @@ h3.footer-tital {
 }
 .footer-btn:hover {
   background: #ff6207;
+}
+
+ul.footer-copy {
+  display: flex;
+  list-style: none;
+}
+
+ul.footer-copy li a {
+  margin-right: 97px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-left: -37px;
+}
+
+.containar {
+  margin-top: 75px;
+}
+.copyrighttext {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: math;
+}
+.copyrighttext span {
+  color: #ff4400;
 }
