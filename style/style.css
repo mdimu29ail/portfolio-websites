@@ -3,6 +3,8 @@ header#dev {
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-size: contain;
+  width: 1339px;
+  margin: auto;
 }
 /* #sec-bg {
   background-color: rgb(241, 205, 158);
@@ -100,11 +102,14 @@ button.nav-btn:hover {
   width: 380px;
   height: 511px;
 }
-.banner {
+.banner-contenar {
   display: flex;
   justify-content: space-between;
 }
-
+.banner {
+  width: 1333px;
+  margin: auto;
+}
 /* about secation */
 #About {
   width: 1100px;
@@ -257,6 +262,11 @@ button.resume-btn-class:hover {
 }
 /* footer style */
 footer.footer-area {
+  width: 1330px;
+
+  margin: auto;
+}
+.footer-contenar {
   padding: 100px 130px 50px;
   background-color: cornsilk;
   margin-top: 47px;
